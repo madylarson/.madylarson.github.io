@@ -2427,3 +2427,11 @@ input, select, textarea {
 			}
 
 	}
+
+/* Add this to your existing CSS */
+.same-size-image img {
+    width: 100%; /* Set the width to 100% for responsiveness */
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 400px; /* Adjust the max-width as needed */
+}
+
