@@ -2435,3 +2435,7 @@ input, select, textarea {
     max-width: 400px; /* Adjust the max-width as needed */
 }
 
+.image.featured img {
+    width: 100%; /* Set the width to 100% */
+    height: auto; /* Maintain the aspect ratio */
+}
