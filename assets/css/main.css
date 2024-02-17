@@ -2446,8 +2446,17 @@ input, select, textarea {
     justify-content: space-between; /* Add space between images */
 } 
 
+
+.image.featured {
+    display: flex; /* Use flexbox to create a horizontal layout */
+}
+
 .image.featured img {
     width: 30%;
-    margin: 0 1%;
+    margin-right: 2%; /* Add space between images */
+}
+
+.image.featured img:last-child {
+    margin-right: 0; /* Remove margin from the last image */
 }
 
