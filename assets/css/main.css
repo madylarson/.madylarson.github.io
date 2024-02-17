@@ -2441,24 +2441,6 @@ input, select, textarea {
 }
 
 
-.image.featured {
-    display: flex; /* Use flexbox to create a horizontal layout */
-    justify-content: space-between; /* Add space between images */
-} 
-
-
-.image.featured {
-    display: flex; /* Use flexbox to create a horizontal layout */
-}
-
-.image.featured img {
-    width: 30%;
-    margin-right: 2%; /* Add space between images */
-}
-
-.image.featured img:last-child {
-    margin-right: 0; /* Remove margin from the last image */
-}
 
 
 /* Add a new class for LC Safe Straw images */
