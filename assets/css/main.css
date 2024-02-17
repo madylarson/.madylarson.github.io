@@ -2460,3 +2460,23 @@ input, select, textarea {
     margin-right: 0; /* Remove margin from the last image */
 }
 
+
+/* Add a new class for LC Safe Straw images */
+.lc-safe-straw-images {
+    display: flex;
+    justify-content: space-between;
+}
+
+.lc-safe-straw-images img {
+    width: 30%;
+    margin: 0 1%;
+}
+
+
+<div class="image featured lc-safe-straw-images">
+    <img src="images/99881b16-5b05-4787-8032-628b6f322439.jpg" alt="" />
+    <img src="images/LC_straw.jpg" alt="" />
+    <img src="images/LC_straw_schem_3.jpg" alt="" />
+</div>
+
+
